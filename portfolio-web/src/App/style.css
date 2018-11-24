@@ -1,5 +1,6 @@
 body {
   padding-top: 40px;
+  /*font-family: 'Lato', sans-serif;*/
 }
 
 .jumbotron {
@@ -7,17 +8,11 @@ body {
   background-color: rgb(245,245,245);
 }
 
-.navbar-inverse {
-  background: #005ce6;
-  border-bottom: none;
-}
-
-.navbar-inverse .navbar-nav>li>a {
+.navbar-dark .navbar-brand {
   color: white;
 }
 
-.navbar-inverse .navbar-brand {
+.navbar-dark .navbar-nav .nav-link {
   color: white;
 }
-
 

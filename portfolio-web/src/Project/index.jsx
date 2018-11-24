@@ -4,8 +4,10 @@ class Project extends Component {
   render() {
     return (
       <div className="col-lg-4 col-sm-6">
-        <div className="thumbnail">
-          <img src="http://assets-cdn.ekantipur.com/images/third-party/money-finance/Stock-Market--Adults--Online-copy-17072018090131-1000x0.jpg"/>
+        <div className="card">
+          <div className="card-body">
+            <img className="card-img-top" src="http://assets-cdn.ekantipur.com/images/third-party/money-finance/Stock-Market--Adults--Online-copy-17072018090131-1000x0.jpg"/>
+          </div>
         </div>
       </div>
     );
