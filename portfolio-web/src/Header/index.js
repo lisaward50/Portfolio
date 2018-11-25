@@ -11,6 +11,7 @@ class Header extends Component {
                 <h3 className="display-6 text-white">// LISA REBECCA WARD</h3>
                 <p id="intro" className="lead text-primary">Full stack web developer, based in NYC.
                   I'm passionate about creating beautiful functional websites.</p>
+                  <div id="projects"></div>
               </div>
               <div className="col">
                   <img id="pic" className="rounded float-right" src="images/pic.jpeg"/>

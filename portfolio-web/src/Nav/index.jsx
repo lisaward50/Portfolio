@@ -12,13 +12,13 @@ class Nav extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#"><i className="fas fa-question"></i> &nbsp; ABOUT ME &nbsp; &nbsp; </a>
+                <a className="nav-link" href="#top"><i className="fas fa-question"></i> &nbsp; ABOUT ME &nbsp; &nbsp; </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#"><i className="far fa-lightbulb"></i> &nbsp; PROJECTS &nbsp; &nbsp; </a>
+                <a className="nav-link" href="#projects"><i className="far fa-lightbulb"></i> &nbsp; PROJECTS &nbsp; &nbsp; </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#"><i className="far fa-envelope"></i> &nbsp; CONTACT / INFO</a>
+                <a className="nav-link" href="#contact_info"><i className="far fa-envelope"></i> &nbsp; CONTACT / INFO</a>
               </li>
             </ul>
           </div>

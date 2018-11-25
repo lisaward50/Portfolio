@@ -7,6 +7,7 @@ class Projects extends Component {
       <div className="container">
         <h3 className="display-6 text-white">// PROJECTS</h3>
         <br/>
+        <br/>
         <div className="row align-items-stretch">
           <Project title="Crypto Gold" description="Cryptocurrency App" img="images/proj1.jpg" />
           <Project title="Idea Factory" description="Patent Check App" img="images/proj3.jpeg" />
