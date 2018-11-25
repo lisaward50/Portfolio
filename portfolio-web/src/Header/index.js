@@ -6,9 +6,16 @@ class Header extends Component {
       <div>
         <div className="jumbotron">
           <div className="container">
-          <h1>Hello World</h1>
-          <p>lorem ipsum</p>
-          <button className="btn btn-info btn-lg">Hi there</button>
+            <div className="row justify-content-between">
+              <div className="col-sm-8">
+                <h3 className="display-6 text-white">// LISA REBECCA WARD</h3>
+                <p id="intro" className="lead text-primary">Full stack web developer, based in NYC.
+                  I'm passionate about creating beautiful functional websites.</p>
+              </div>
+              <div className="col">
+                  <img id="pic" className="rounded float-right" src="images/pic.jpeg"/>
+              </div>
+            </div>
           </div>
         </div>
       </div>

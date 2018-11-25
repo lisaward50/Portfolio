@@ -1,11 +1,29 @@
 body {
   padding-top: 40px;
-  /*font-family: 'Lato', sans-serif;*/
+  font-family: 'Poppins', sans-serif;
 }
 
 .jumbotron {
-  color: #005ce6;
-  background-color: rgb(245,245,245);
+  background-image: url("../Images/brick.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+}
+
+#intro {
+  padding-bottom: 30px;
+}
+
+#pic {
+  height: 100px;
+  width: 100px;
+  border: 1px solid white;
+}
+
+#contact_info {
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .navbar-dark .navbar-brand {

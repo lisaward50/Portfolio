@@ -5,10 +5,9 @@ class Projects extends Component {
   render() {
     return (
       <div className="container">
+        <h3 className="display-6 text-white">// PROJECTS</h3>
+        <br/>
         <div className="row">
-          <Project />
-          <Project />
-          <Project />
           <Project />
           <Project />
           <Project />
