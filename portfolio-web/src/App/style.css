@@ -34,3 +34,7 @@ body {
   color: white;
 }
 
+.card-img-top {
+  height: 210px;
+}
+
