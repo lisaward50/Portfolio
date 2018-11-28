@@ -8,7 +8,7 @@ import './style.css';
 class App extends Component {
   render() {
     return (
-      <div className="bg-dark">
+      <div className="app bg-dark">
         <Nav />
         <Header />
         <Projects />
