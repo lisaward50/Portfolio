@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Project extends Component {
   render() {
-    const { title, description, img } = this.props;
+    const { title, description, img, link, icon, status } = this.props;
     return (
       <div className="col-sm-6 col-lg-4 mb-3">
         <div className="card text-white bg-dark border-light">
@@ -10,7 +10,7 @@ class Project extends Component {
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{description}</p>
-            <a href="#" className="btn btn-sm btn-outline-primary"><i className="fas fa-hammer"></i> &nbsp; Under Construction</a>
+            <a href={link} className="btn btn-sm btn-outline-primary"><i className={icon}></i> &nbsp; {status}</a>
           </div>
         </div>
       </div>
