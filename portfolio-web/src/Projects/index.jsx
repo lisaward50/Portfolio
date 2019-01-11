@@ -9,12 +9,12 @@ class Projects extends Component {
         <br/>
         <br/>
         <div className="row align-items-stretch">
-          <Project title="Travel Tips" description="Helpful tips for travelling light" img="images/travelTips.png" icon="far fa-eye" status="View Website" link="https://lisaward50.github.io/Design/" />
-          <Project title="FX Converter" description="Currency converter app" img="images/currency.png" icon="far fa-eye" status="View Website" link="https://lisaward50.github.io/API/"/>
-          <Project title="Idea Factory" description="Patent check app" img="images/proj3.jpeg" icon="fas fa-hammer" status="Under Construction" link="#" />
-          <Project title="Bartender" description="Cocktail app" img="images/proj5.jpeg" icon="fas fa-hammer" status="Under Construction" link="#" />
-          <Project title="Sushi Yasuda" description="Restaurant app" img="images/sushi_yasuda.png" icon="fas fa-hammer" status="Under Construction" link="#" />
-          <Project title="Beerstorm" description="Craft beer app" img="images/beerstorm.png" icon="fas fa-hammer" status="Under Construction" link="#" />
+          <Project title="Elevate" description="Event website for women in tech" img="images/project1.png" icon="fas fa-eye" status="View Website" link="https://safe-taiga-62476.herokuapp.com/" />
+          <Project title="Whisky/Twist" description="Whisky recommendation website" img="images/project2.png" icon="fas fa-eye" status="View Website" link="https://floating-woodland-55904.herokuapp.com/" />
+          <Project title="Travel Tips" description="Helpful travel tips website" img="images/project3.png" icon="far fa-eye" status="View Website" link="https://lisaward50.github.io/Design/" />
+          <Project title="FX/Conv" description="Currency converter website" img="images/project4.png" icon="far fa-eye" status="View Website" link="https://lisaward50.github.io/API/"/>
+          <Project title="Weather" description="Detailed local weather website" img="images/beerstorm.png" icon="fas fa-hammer" status="Under Construction" link="#" />
+          <Project title="Sushi Yasuda" description="Restaurant website" img="images/sushi_yasuda.png" icon="fas fa-hammer" status="Under Construction" link="#" />
         </div>
       </div>
     );
