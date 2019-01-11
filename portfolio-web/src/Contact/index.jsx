@@ -11,10 +11,10 @@ class Contact extends Component {
             <i className="far fa-envelope"></i> &nbsp; lisa.ward50@gmail.com
           </li>
           <li>
-            <i className="fab fa-linkedin"></i> &nbsp; lisa-ward-cfa-bb906954
+            <i className="fab fa-linkedin"></i> &nbsp; <a href="https://www.linkedin.com/in/lisa-ward-cfa/">lisa-ward-cfa</a>
           </li>
           <li>
-            <i className="fab fa-github-square"></i> &nbsp; lisaward50
+            <i className="fab fa-github-square"></i> &nbsp;<a href="https://github.com/lisaward50">lisaward50</a>
           </li>
         </ul>
       </div>
